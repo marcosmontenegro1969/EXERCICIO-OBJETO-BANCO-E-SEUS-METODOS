@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>git</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+</head>
+<body>
+  <h1>Conta Bancária</h1>
+  <label for="saldo">Saldo Atual :</label>
+  <input type="text" id="saldo" value="0" readonly>
+  <br>
+  <label for="depositoInput">Depósito :</label>
+  <input type="number" id="depositoInput">
+  <button onclick="realizarDeposito()">Depósito</button>
+  <br>
+  <label for="saqueInput">Saque :</label>
+  <input type="number" id="saqueInput">
+  <button onclick="realizarSaque()">Saque</button>
+  <br>
+  <label for="numeroConta">Número da Conta :</label>
+  <input type="password" id="numeroConta" value="*****" readonly>
+  <button onclick="mostrarOcultarInformacoes()">Mostrar/Esconder</button>
+  <script type="text/javascript" src="/script.js"></script>
+</body>
+</html>
